@@ -1,0 +1,102 @@
+.main-content {
+  padding-top: 70px !important;
+}
+.main-content.open {
+  margin-left: 220px !important;
+  max-width: calc(100% - 220px) !important;
+}
+
+
+.Nav-Icon {
+  font-size: 20px;
+  margin-right: 4%;
+  color: #aaa9a9;
+}
+.Nav-Icon1 {
+  font-size: 20px;
+  color: #aaa9a9;
+}
+
+.dashboards__headerNavs {
+  background-color: white;
+  box-shadow: 4px 3px 17px -6px rgba(0, 0, 0, 0.61) inset;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.61);
+  height: 70px;
+  left: 0;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  width: 100%;
+  z-index: 10;
+}
+.dashboards__headerNavs--container {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100%;
+  padding-inline: 2rem;
+}
+
+.dashboards__headerNavs--container .navMenu {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: grey;
+}
+.navMenus {
+  font-size: 1.2rem;
+  color: red !important;
+}
+
+.login-btn-clr{
+  font-size: 1.2rem;
+  text-decoration: none !important;
+}
+.navName {
+  cursor: pointer;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0 !important;
+  margin-left: 1rem;
+  color: #514f4f;
+}
+.dashboards__headerNavs--container .logo {
+  cursor: pointer;
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 0 !important;
+  margin-left: 1rem;
+}
+.logoutAvatar {
+  background-position: right;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.test_logo{
+  height: 65px;
+  width: 180px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+
+@media (min-width: 320px) and (max-width: 426px){
+  .navName{
+    font-size: 0px;
+  }
+
+  .testLogo{
+    height: 65px;
+    width: 100px;
+    padding: 2%;
+    cursor: pointer;
+  }
+}

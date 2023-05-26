@@ -1,0 +1,165 @@
+.ProposalLayout {
+  width: 80%;
+  min-height: 500px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+}
+
+.NkDecibels-logo {
+  height: 100px;
+  width: 100%;
+}
+
+.proposalheading {
+  padding-bottom: 0px !important;
+  font-weight: 700;
+}
+.Proposal-input {
+  margin-top: 15px;
+  width: 100px;
+  padding: 8px;
+  display: inline-block;
+  background-color: rgb(244, 244, 244);
+  border: none !important;
+  outline: transparent solid 0px;
+}
+.proposla-Hr {
+  height: 2px;
+  margin-bottom: 20px;
+  flex-shrink: 0;
+  height:1px; 
+  border:none; 
+  color:#000; 
+  background-color:rgba(0, 0, 0, 0.12); 
+  width:80%; 
+  text-align:center; 
+  margin: 0 auto;
+}
+
+.tabs{
+  background-color: none !important;
+}
+
+.name-field{
+  width:100%;
+}
+
+.table-heading{
+  display: flex;
+  font-size: 18px;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+}
+
+.quotation-field
+{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.proposal-calender{
+  mask-position: 10rem;
+}
+
+.proposal-table{
+  font-family: Roboto, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 0 !important
+}
+
+.Proposal-thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ececec;
+  color: #3b3b3b;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  text-align: center !important;
+  border-bottom: 1px solid #ddd;
+} 
+
+.main-header{
+  font-size: 14px !important;
+  text-align: left !important;
+  font-weight: 600 !important;
+}
+
+.Sub-header{
+  font-size: 15px !important;
+  color: #4e62ab !important;
+  background-color: rgb(254, 254, 254);
+  text-align: center !important;
+  font-weight: 600 !important;
+}
+
+.Proposal-tbody tr:nth-child(odd) {
+  background-color: #ececec77 !important;
+}
+
+.Proposal-tbody tr:hover {
+  background-color: rgb(243, 243, 243) !important;
+} 
+
+Proposal-thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f5f5f5;
+  color: rgb(59, 59, 59);
+  border-top: 1px rgb(212, 212, 212) solid;
+  border-bottom: 1px rgb(212, 212, 212) solid;
+  font-size: 14px;
+}
+
+.Proposal-tbody input[type="text"] {
+  background: transparent;
+  -moz-appearance: textfield;
+}
+
+.number {
+  width: 12%;
+  padding: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.Nkdecibels-Footer{
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  line-height: 11px;
+}
+
+.hr-footer{
+  height:5px; 
+  border:none; 
+  color:#000; 
+  background-color:rgba(0, 0, 0, 0.12); 
+  width:80%; 
+  text-align:center; 
+  margin: 0 auto;
+}
+
+.p-tabview .p-tabview-panels {
+  background: #ffffff00 !important;
+  outline: none !important;
+}
+
+.p-tabview .p-tabview-nav li {
+  padding: 2px;
+}
+
+.p-tabview-title{
+  font-size: medium;
+}

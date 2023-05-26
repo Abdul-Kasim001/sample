@@ -1,0 +1,6 @@
+.card-icons{
+  width: 2.5rem !important; 
+  height: 2.5rem !important;
+  color:var(--cyan-500) !important;
+  font-size:1.25rem !important;
+}

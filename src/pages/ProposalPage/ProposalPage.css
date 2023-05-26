@@ -1,0 +1,59 @@
+@tailwind utilities;
+
+input,
+textarea {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 2rem;
+  color: #495057 !important;
+  border: 1px solid #ced4da;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid hsl(217, 91%, 60%);
+}
+
+input:hover,
+textarea:hover {
+  color: hsl(217, 91%, 60%);
+}
+
+ul{
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.preview{
+  text-align: center;
+  padding: 7px 10.5px;
+  cursor: pointer;
+}
+
+.preview span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.preview span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.preview:hover span {
+  padding-right: 25px;
+}
+
+.preview:hover span:after {
+  opacity: 1;
+  right: 0;
+}

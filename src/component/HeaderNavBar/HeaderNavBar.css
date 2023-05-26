@@ -1,0 +1,44 @@
+.heading {
+  font-size: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--pr-color);
+}
+
+.NkDecibelsLogo{
+  height: 65px;
+  width: 180px;
+  padding: 2%;
+  cursor: pointer;
+}
+
+.nav-brand {
+  background-color: rgb(249, 249, 249)!important;
+  box-shadow: 3px 3px 6px -4px rgb(0 0 0 / 95%);
+  flex-wrap: nowrap !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 0px;
+
+}
+@media only screen and (max-width: 425px) {
+  .heading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .dextraLogo{
+    /* height: 65%; */
+    width: 65%;
+  }
+}
+
+.logoutbutton {
+  border-radius: 30px !important;
+  background-color: rgb(34, 89, 156) !important;
+  color: white !important;
+  --bs-btn-border-color: none !important;
+}
+
+.icon-styles {
+  height: 14px !important;
+  color:black !important;
+}

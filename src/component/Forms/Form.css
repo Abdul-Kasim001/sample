@@ -1,0 +1,100 @@
+.Form {
+  z-index: 10;
+}
+  
+.Create-input {
+  width: 95% !important;
+  border-radius: 5px;
+  height: 37px;
+  outline: none;
+}
+.Create-input:hover {
+  border: 1px solid #708fae;
+}
+
+.input-text-area{
+  padding: 0.25rem 0.75rem !important;
+}
+
+.input-number{
+  height: 37px !important;
+  width: 95% !important;
+}
+
+
+.heading-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-heading-fields{
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: 2px solid #708fae;
+  background-color: #708fae;
+  color:rgb(255, 255, 255);
+  border-radius: 5px;
+  padding-inline: 8px;
+}
+
+.form-button {
+  justify-content: center;
+}
+
+.p-datepicker:not(.p-datepicker-inline) {
+  z-index: 1002;
+  top: 135px !important;
+  left: 259px;
+  width: 50% !important;
+}
+
+.dropdown-demo .p-dropdown {
+  width: 14rem;
+}
+
+.dropdown-demo .country-item-value img.flag {
+  width: 17px;
+}
+
+.attachment-label {
+  font-weight: 500;
+}
+
+.pdfsize {
+  height: 60px;
+  padding: 10px;
+}
+
+.Create-inputnumber {
+  width: 95% !important;
+  border-radius: 5px;
+  height: 37px;
+}
+
+.fileupload {
+  text-align: center;
+  height: 37px !important;
+}
+
+.productbtn {
+  text-align: center;
+  height: 37px !important;
+}
+
+/* Password field */
+.p-password input {
+  width: 15rem;
+  width: 100%;
+}
+
+
+.ant-select-selector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px !important;
+  height: 37px !important;
+  margin-top: 4px !important;
+}

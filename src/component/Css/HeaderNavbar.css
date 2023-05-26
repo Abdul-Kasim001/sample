@@ -1,0 +1,161 @@
+.nav-brand {
+  background-color: white;
+  box-shadow: 4px 3px 17px -6px rgba(0, 0, 0, 0.61) inset ;
+  -webkit-box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.61) ;
+  /* // -moz-box-shadow: 4px 3px 17px -6px rgba(0, 0, 0, 0.61) ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ height: 70px;
+}
+.navbar-collapse {
+  display: flex!important;
+  flex-basis: auto;
+  justify-content: flex-end;
+}
+.NkDecibels_logo {
+  /* // margin-left: 25%; */
+  height:65px;
+  width: 180px;
+  padding: 2%;
+  cursor: pointer;
+}
+.navbartitle {
+  background-image: linear-gradient(
+    to right,
+    #ff0000,
+    #ff0000 50%,
+    #ff0000 50%
+  );
+  font-size: 16px;
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.title-page{
+  margin-left: -30px;
+}
+.navbartitle:before {
+  content: "";
+  background: #ff0000;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbartitle:hover {
+  background-position: 0;
+}
+
+.navbartitle:hover::before {
+  width: 100%;
+}
+.Card{
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.493),
+  0 5px 10px 0 rgba(0, 0, 0, 0.19) inset;
+}
+.loginbutton {
+  border-radius: 15px !important;
+  background-color: #ff0000 !important;
+  color: white !important;
+  --bs-btn-border-color: none !important;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.493),
+  0 5px 10px 0 rgba(0, 0, 0, 0.19) inset;
+}
+
+
+.loginbutton:hover {
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24),
+  0 5px 10px 0 rgba(0, 0, 0, 0.19)  ;
+  box-shadow: 0 3px 4px 0 rgba(158, 158, 158, 0.24),
+  0 2px 5px 0 rgba(255, 255, 255, 0.979) inset;
+ 
+   
+}
+.loginbutton:hover:after{
+  left: 100%;
+}
+.loginbutton 
+
+.loginbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.loginbutton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.loginbutton:hover span {
+  padding-right: 25px;
+}
+
+.loginbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.registerbutton {
+  border-radius: 15px !important;
+  background-color:  #ff0000 !important;
+  color: white !important;
+  --bs-btn-border-color: none !important;
+  box-shadow: 1px black;
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.493),
+  0 5px 10px 0 rgba(0, 0, 0, 0.19) inset;
+}
+
+
+.registerbutton:hover {
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24),
+    0 5px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 4px 0 rgba(158, 158, 158, 0.24),
+    0 2px 5px 0 rgba(255, 255, 255, 0.979) inset;
+    background-color: white;
+   
+}
+.registerbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.registerbutton span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.registerbutton:hover span {
+  padding-right: 25px;
+}
+
+.registerbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/* // NAVBAR2 STYLES */
+.icon-styles {
+  color: gray !important;
+}
+
